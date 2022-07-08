@@ -18,6 +18,6 @@ def base_change(b1, b2,num_as_string):
         digit_str = str(digit) if digit <10 else dict_map[str(digit)]
         ret_str += digit_str
 
-    return ret_str
+    return ret_str[::-1]
 
-print(base_change(10, 16, "15332"))
+print(base_change(16, 10, "15332"))
