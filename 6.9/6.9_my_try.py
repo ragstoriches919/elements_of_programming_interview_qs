@@ -23,10 +23,9 @@ def get_valid_ip_address(s):
                             parts[3] = s[i+j+k:]
                             results.append('.'.join(parts))
 
-
     return results
-
 
 
 ip = "19216811"
 print(get_valid_ip_address(ip))
+
